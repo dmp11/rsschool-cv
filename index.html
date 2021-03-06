@@ -6,56 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Dmitry Popov</h1>
-    <hr>
-    <h2>Junior Frontend Developer</h2>
-    <hr>
-    <address>
+    <header class="container">
+        <h1>Dmitry Popov</h1>
+       
+        <address>
+            <ul>
+                <li>pd8@mail.ru</li>
+                <li>+7-926-242-2224</li>
+                <li>Moscow, Russian Federation</li>
+            </ul>
+        </address>
+    </header>
+    <section class="container">
+         <h2>Junior Frontend Developer</h2>
+         <p>
+            I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with
+            Company
+            to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of
+            projects.
+        </p>
+    </section>
+    <section class="container">
+        <h3>Skills</h3>
         <ul>
-            <li>pd8@mail.ru</li>
-            <li>+7-926-242-2224</li>
-            <li>Moscow, Russian Federation</li>
+            <li>Javascript</li>
+            <li>HTML/CSS3</li>
+            <li>Node.JS</li>
         </ul>
-    </address>
-    <hr>
-    <p>
-        I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company
-        to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of
-        projects.
-    </p>
-    <hr>
-    <h3>Skills</h3>
-    <ul>
-        <li>Javascript</li>
-        <li>HTML/CSS3</li>
-        <li>Node.JS</li>
-    </ul>
-    <hr>
-    <h3> Code Examples</h3>
-    <pre><code>
+    </section>
+    <section class="container">
+        <h3> Code Examples</h3>
+        <pre><code>
         // function isAnagram
         var isAnagram = function(test, original) {
         return test.toLowerCase().split("").sort().join("") == original.toLowerCase().split("").sort().join("");
         };
     </code></pre>
+    </section>
 
-    <hr>
-    <h3>Experience</h3>
-    <hr>
-    <h3>Education</h3>
-    <p> Moscow Technical University of Communications and Informatics (MTUCI).
-        <br>Graduate in the specialty "Engineer Of Multichannel Telecommunications" , 1998.
-    </p>
-    <hr>
-    <h3>Languages</h3>
-    <ul>
-        <li>English basic knowledge</li>
-    </ul>
-    
-
+    <section class="container">
+        <h3>Experience</h3>
+    </section>
+    <section class="container">
+        <h3>Education</h3>
+        <p>
+            Moscow Technical University of Communications and Informatics (MTUCI).
+            <br>Graduate in the specialty "Engineer Of Multichannel Telecommunications" , 1998.
+        </p>
+    </section>
+    <section class="container">
+        <h3>Languages</h3>
+        <ul>
+            <li>English basic knowledge</li>
+        </ul>
+    </section>
 
 </body>
 
