@@ -9,9 +9,9 @@ I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an en
 
 ---
 ### Skills
-* Javascript
-* HTML/CSS3
-* Node.JS
+* ```Javascript```
+* ```HTML/CSS3```
+* ```Node.JS```
 ---
 ### Code Examples
 
@@ -22,7 +22,7 @@ var isAnagram = function(test, original) {
 };
 
 ```
-
+---
 ### Experience
 
 
@@ -31,6 +31,8 @@ var isAnagram = function(test, original) {
 ### Education
 Moscow Technical University of Communications and Informatics (MTUCI)
 Graduate in the specialty "Engineer Of Multichannel Telecommunications" , 1998.
+
+
 ---
 ### Languages
 English basic knowledge
