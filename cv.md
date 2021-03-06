@@ -9,9 +9,10 @@ I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an en
 
 ---
 ### Skills
-* ```Javascript```
-* ```HTML/CSS3```
-* ```Node.JS```
+* Javascript
+* HTML/CSS3
+* Node.JS
+
 ---
 ### Code Examples
 
@@ -20,9 +21,10 @@ I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an en
 var isAnagram = function(test, original) {
   return test.toLowerCase().split("").sort().join("") == original.toLowerCase().split("").sort().join("");
 };
-
 ```
+
 ---
+
 ### Experience
 
 
