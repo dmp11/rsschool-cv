@@ -7,10 +7,21 @@ h1, h2, h3 {
   color: #3F6491;
 }
 .container {
-  padding-left:  200px;
-  padding-right: 200px;
+  margin-left:  50px;
+  margin-right: 50px;
 }
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+.avatar {
+  border-radius: 60px;
+}
+footer>div {
+  background-color: #F1F1F1;
+  height: 24px;
+}
+time {
+  font-weight: 700;
+  color: #3F6491;
 }
